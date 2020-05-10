@@ -1,0 +1,10 @@
+{
+  "development": {
+    "apiUrl": "https://leslie.party",
+    "contentApiKey": "4e3d8a1616953f970b570c3b9e"
+  },
+  "production": {
+    "apiUrl": "https://leslie.party",
+    "contentApiKey": "4e3d8a1616953f970b570c3b9e"
+  }
+}
