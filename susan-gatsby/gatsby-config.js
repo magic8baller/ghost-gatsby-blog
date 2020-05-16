@@ -37,6 +37,7 @@ module.exports = {
         /**
          *  Content Plugins
          */
+       
         {
             resolve: `gatsby-source-filesystem`,
             options: {
@@ -53,6 +54,7 @@ module.exports = {
                 name: `images`,
             },
         },
+        // `gatsby-plugin-styled-components`,
         `gatsby-plugin-sharp`,
         `gatsby-transformer-sharp`,
         {

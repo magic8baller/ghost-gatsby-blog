@@ -26,6 +26,7 @@
   "scripts": {
     "serve": "gatsby build && NODE_ENV=production gatsby serve",
     "build": "gatsby build",
+    "clean": "gatsby clean",
     "dev": "gatsby develop",
     "lint": "eslint . --ext .js --cache",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -39,6 +40,7 @@
   "dependencies": {
     "@tryghost/helpers": "1.1.27",
     "@tryghost/helpers-gatsby": "1.0.31",
+    "babel-plugin-styled-components": "^1.10.7",
     "cheerio": "1.0.0-rc.3",
     "gatsby": "2.21.21",
     "gatsby-awesome-pagination": "0.3.5",
@@ -51,12 +53,19 @@
     "gatsby-plugin-offline": "3.2.1",
     "gatsby-plugin-react-helmet": "3.3.1",
     "gatsby-plugin-sharp": "2.6.2",
+    "gatsby-plugin-styled-components": "^3.3.1",
     "gatsby-source-filesystem": "2.3.1",
     "gatsby-source-ghost": "4.0.4",
     "gatsby-transformer-sharp": "2.5.2",
     "lodash": "4.17.15",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-helmet": "5.2.1"
+    "react-helmet": "5.2.1",
+    "react-icons": "^3.10.0",
+    "react-reveal": "^1.2.2",
+    "styled-components": "^5.1.0",
+    "typeface-aleo": "0.0.69",
+    "typeface-clear-sans": "0.0.44",
+    "typeface-open-sans": "0.0.75"
   }
 }
