@@ -31,6 +31,9 @@ try {
 */
 module.exports = {
     siteMetadata: {
+        title: `Yoga with Susan Turis`,
+        description: `Personal website and blog for a certified Iyengar Yoga Teacher in Brooklyn, NYC`,
+        author: `Leslie Turis`,
         siteUrl: config.siteUrl,
     },
     plugins: [

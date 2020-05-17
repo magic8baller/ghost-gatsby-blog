@@ -1,9 +1,11 @@
 import React from 'react'
 import Layout from 'components/shared/Layout'
 import Fade from 'react-reveal/Fade'
+import SEO from 'components/SEO'
 export default function () {
   return (
     <Layout>
+      <SEO title='home'/>
       <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
         <div>
           <p>

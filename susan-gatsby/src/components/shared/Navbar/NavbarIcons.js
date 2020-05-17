@@ -17,7 +17,7 @@ const IconWrapper = styled.div`
     }
     .social-icon {
         /* // margin-right: 2rem; */
-        font-size: 1.3rem;
+        font-size: 1.9rem;
         cursor: pointer;
         ${styles.transFunction()};
     }

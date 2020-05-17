@@ -5,11 +5,11 @@ import {createGlobalStyle} from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
 :root {
-  --styled-font: "Aleo";
-  --main-font: "Open Sans";
-  --bold-font: "Clear Sans";
+  --styled-font: "Aleo", serif;
+  --main-font: "Open Sans", sans-serif;
+  --bold-font: "Clear Sans", sans-serif;
   /* dark shades of primary color*/
-  /* --clr-primary-1: hsl(43, 86%, 17%); */
+
   --clr-primary-1: hsl(184, 91%, 17%);
   --clr-primary-2: hsl(185, 84%, 25%);
   --clr-primary-3: hsl(185, 81%, 29%);
@@ -34,8 +34,7 @@ const GlobalStyle = createGlobalStyle`
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
   --clr-white: #fff;
-  --ff-primary: "Roboto", sans-serif;
-  --ff-secondary: "Open Sans", sans-serif;
+
   --transition: all 0.3s linear;
   --spacing: 0.2rem;
   --radius: 0.25rem;

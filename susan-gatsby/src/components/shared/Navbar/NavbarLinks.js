@@ -10,14 +10,14 @@ const LinkWrapper = styled.ul`
     display: block;
     text-decoration: none;
     padding: 0.5rem 1rem 0.5rem 1rem;
-    color: ${styles.colors.mainGrey};
+    color: var(--clr-grey-3);
     font-weight: 700;
     text-transform: capitalize;
     cursor: pointer;
     ${styles.transDefault};
     &:hover {
-      background: ${styles.colors.mainGrey};
-      color: ${styles.colors.mainYellow};
+      background: var(--clr-primary-5);
+      color: var(--clr-grey-10);
       padding: 0.5rem 1rem 0.5rem 1.3rem;
     }
   }
